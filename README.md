@@ -40,7 +40,7 @@ Patches are a way of adding functionality to the minimal standard build of st
 - Selection colors
 
 
-## Acknowledgements
+## Acknowledgments
 
 Visit [suckless.org](https://st.suckless.org/) for more information on st
 and other suckless programs.
