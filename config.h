@@ -102,7 +102,7 @@ float alpha = .1;
 unsigned int tabspaces = 8;
 
 /* Include colors header file */
-#include "/home/luca/.config/colors/config/st-colors.h"
+#include "st-color.h"
 
 /*
  * Default colors (colorname index)
