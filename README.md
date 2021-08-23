@@ -1,12 +1,10 @@
 # Boboassa's build of st
 
-st is a simple terminal emulator for X which sucks less.
-
+st - simple terminal emulator for X
 
 ## Requirements
 
-In order to build st you need the Xlib header files.
-
+In order to build st you need the `Xlib` header files.
 
 ## Installation
 
@@ -21,24 +19,24 @@ make clean install
 ```
 
 
-## Running st
+## Running `st`
 
-If you did not install st with `make clean install`, you must compile
-the st terminfo entry with the following command:
+Set st as your default terminal emulator program and then run it as normal
 
-```
-tic -sx st.info
-```
+Otherwise you can run it with the command: `st`.
 
 See the man page for additional details.
 
+## Configuration
+
+The configuration of st is done by creating a custom `config.h`
+and (re)compiling the source code.
 
 ## Applied patches
 
 Patches are a way of adding functionality to the minimal standard build of st
 
 - Selection colors
-
 
 ## Acknowledgments
 
