@@ -114,8 +114,8 @@ static unsigned int defaultcs = 258; /* light pink */
 static unsigned int defaultrcs = 260; /* darkblue */ 
 
 /* Colors used for selection */
-unsigned int selectionbg = 259;
-unsigned int selectionfg = 257;
+unsigned int selectionbg = 257;
+unsigned int selectionfg = 259;
 /* If 0 use selectionfg as foreground in order to have a uniform foreground-color */
 /* Else if 1 keep original foreground-color of each cell => more colors :) */
 static int ignoreselfg = 0;
