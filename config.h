@@ -1,16 +1,10 @@
 /* See LICENSE file for copyright and license details. */
 
-/*
- * appearance
- *
- * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
- */
 // static char *font = "Hurmit Nerd Font:size=12:antialias=true";
-static char *font = "Hermit:pixelsize=16";
+static char *font = "Iosevka Term:pixelsize=16";
 static int borderpx = 16;
 
-/* Hermit:pixelsize=16:antialias=true:autohint=true
- * What program is execed by st depends of these precedence rules:
+/* What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
  * 2: scroll and/or utmp
  * 3: SHELL environment variable
@@ -28,7 +22,7 @@ char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
 static float cwscale = 1.0;
-static float chscale = 0.9;
+static float chscale = 1.0;
 
 /*
  * word delimiter string
