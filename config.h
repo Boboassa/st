@@ -72,7 +72,7 @@ static int bellvolume = 0;
 char *termname = "st-256color";
 
 /* bg opacity */
-float alpha = 1;
+//float alpha = 1;
 
 /* alpha gradient */
 // float grad_alpha = 0; //alpha value that'll change
